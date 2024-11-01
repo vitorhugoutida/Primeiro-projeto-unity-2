@@ -4294,7 +4294,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63, y: 5, z: -10}
+  m_LocalPosition: {x: 28.68, y: 7.03, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17122,6 +17122,7 @@ GameObject:
   - component: {fileID: 2085506607}
   - component: {fileID: 2085506610}
   - component: {fileID: 2085506609}
+  - component: {fileID: 2085506611}
   m_Layer: 0
   m_Name: Idle (32x32)_0 (1)
   m_TagString: Untagged
@@ -17262,6 +17263,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.75
+--- !u!114 &2085506611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18b8c73a9fb2b74da35e3c3531ba94d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VidaJogador: 0
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
