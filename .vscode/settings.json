@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Primeiro projeto.sln"
+    "dotnet.defaultSolution": "Primeiro-projeto-unity-2.sln"
 }

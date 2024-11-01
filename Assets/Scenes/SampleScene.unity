@@ -17275,7 +17275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18b8c73a9fb2b74da35e3c3531ba94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VidaJogador: 0
+  vidaJogador: 50
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
