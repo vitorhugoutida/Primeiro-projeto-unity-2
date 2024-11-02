@@ -10,15 +10,15 @@ public class Atividade02 : MonoBehaviour
     
     [SerializeField] public int powerUp = 1;
 
-    // Não consegui colocar True, eu substitui true == 1, false = != 1 e eu preciso pesquisar...
+    // Se quiser colocar variavel de true or false precisa usar public bool
 
-    public int velocidadeJogador = 1;
+    [SerializeField] public int velocidadeJogador = 20;
     void Start()
     {
-        if (powerUp == 1)
+        if (powerUp > 0)
         {
             print("Power-Up Coletado");
-            velocidadeJogador++;
+            velocidadeJogador = 40;
             // Não consegui colocar qualquer número para aumentar e eu preciso pesquisar...
         }
         else
