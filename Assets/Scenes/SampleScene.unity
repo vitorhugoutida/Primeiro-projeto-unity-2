@@ -17123,6 +17123,7 @@ GameObject:
   - component: {fileID: 2085506610}
   - component: {fileID: 2085506609}
   - component: {fileID: 2085506611}
+  - component: {fileID: 2085506612}
   m_Layer: 0
   m_Name: Idle (32x32)_0 (1)
   m_TagString: Untagged
@@ -17276,6 +17277,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaJogador: 50
+--- !u!114 &2085506612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d8f243b3d6b6a4d8fe043fedc17698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 1
+  velocidadeJogador: 20
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
