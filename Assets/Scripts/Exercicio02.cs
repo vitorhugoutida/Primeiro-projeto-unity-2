@@ -1,30 +1,36 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Atividade02 : MonoBehaviour
+public class Exercicio02 : MonoBehaviour
 {
     // ATIVIDADE 02
     // (Detecção de power-up) Ao coletar um power-up, o personagem aumenta sua velocidade. Se o jogador encontrar um power-up, exiba "Power-Up Coletado". Caso contrário, exiba "Nenhum power-up encontrado".
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
-    [SerializeField] public int powerUp = 1;
 
     // Se quiser colocar variavel de true or false precisa usar public bool
 
     [SerializeField] public int velocidadeJogador = 20;
+
+    [SerializeField] bool powerUp;
     void Start()
     {
-        if (powerUp > 0)
+        if (powerUp == true)
         {
+            print("Power-Up Coletado!");
+
             print("Power-Up Coletado");
             velocidadeJogador = 40;
-            
         }
         else
         {
             print("Nenhum Power-Up encontrado");
         }
+
+        // Condição ? Caso verdade : Caso falso
+
+        print(!powerUp ? "Power-Up Coletado!" : "Nenhum Power-Up encontrado");
+
     }
 
     // Update is called once per frame

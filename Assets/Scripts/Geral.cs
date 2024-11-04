@@ -18,6 +18,7 @@ public class Geral : MonoBehaviour
     [SerializeField] int vidaHeroi = 100;
     [SerializeField] int vidaVilao = 300;
     string resultado;
+    [SerializeField] int estadoVilao = 1;
 
     void Start()
     {
@@ -48,6 +49,35 @@ public class Geral : MonoBehaviour
         {
             resultado = "Vida Heroi Maior";
             print(resultado);
+        }
+
+        // Estado
+
+        // Estado 01: vilão ataca
+        // Estado 02: vilão defende
+        // Estado 03: vilão toma dano
+
+        switch (estadoVilao)
+        {
+            case 1:
+                print("Vilão atacando");
+                if (true)
+                {
+                    print("Danoo");
+                }
+                break;
+
+            case 2:
+                print("Vilão defende");
+                break;
+
+            case 3:
+                print("Vilão tomando um coro");
+                break;
+
+            default:
+                print("Valor não identificado");
+                break;
         }
     }
     void Update()
