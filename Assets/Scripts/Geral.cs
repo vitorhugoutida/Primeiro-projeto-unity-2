@@ -4,16 +4,30 @@ public class Geral : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    //Operadores relacionais
+    /*
+        Operadores relacionais
+        
+        == (igual)
+        != (diferente)
+        >  (Maior que)
+        <  (Menor que)
+        <= (Menor igual)
+        >= (Maior igual)
 
-    //    == (Igual)
-    //    != (Diferente)
-    //    > (Maior que)
-    //    < (Menor que)
-    //    <= (Menor igual)
-    //    >= (Maior igual)
+        Operadores Lógicos
 
-    //Operador L
+        && (E/ AND)
+        || (OU / OR)
+        ! (NÃO / NOT)
+     
+        Variáveis
+    
+        int vidaPlayer = 10;
+        float velocidadePlayer = 50.2f;
+        bool mortePlayer = true;
+        string nomePlayer = "Tadola";
+        char apelido = 'A';
+    */
 
     [SerializeField] int vidaHeroi = 100;
     [SerializeField] int vidaVilao = 300;

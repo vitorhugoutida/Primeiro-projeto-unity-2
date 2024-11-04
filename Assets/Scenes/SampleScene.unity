@@ -5496,7 +5496,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 873736129}
-  - {fileID: 2085506608}
   - {fileID: 695608993}
   m_Father: {fileID: 577490910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17125,8 +17124,13 @@ GameObject:
   - component: {fileID: 2085506611}
   - component: {fileID: 2085506612}
   - component: {fileID: 2085506613}
+  - component: {fileID: 2085506615}
+  - component: {fileID: 2085506614}
+  - component: {fileID: 2085506617}
+  - component: {fileID: 2085506616}
+  - component: {fileID: 2085506618}
   m_Layer: 0
-  m_Name: Idle (32x32)_0 (1)
+  m_Name: Jogador Scripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17196,11 +17200,11 @@ Transform:
   m_GameObject: {fileID: 2085506606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.26, y: -0.63703585, z: 4.519477}
+  m_LocalPosition: {x: 23.169075, y: 6.0428085, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 675131959}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2085506609
 Rigidbody2D:
@@ -17272,7 +17276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d18b8c73a9fb2b74da35e3c3531ba94d, type: 3}
   m_Name: 
@@ -17285,7 +17289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58d8f243b3d6b6a4d8fe043fedc17698, type: 3}
   m_Name: 
@@ -17299,13 +17303,81 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a15c9abb0b59121438ccc6d6553a38d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vidaJogador: 0
   powerUp: 1
+--- !u!114 &2085506614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c8838981efd1243a48d4d69b526fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeJogador: 20
+  powerUp: 1
+--- !u!114 &2085506615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84193a8d0fb8ba948a75a481bdb69a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaPlayer: 100
+--- !u!114 &2085506616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c74d3a1a6e36141bfaeea86b3a5ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoDeVida: 0
+--- !u!114 &2085506617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e365e0826975d84ea05e1968eebbe23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 0
+  powerUp: 0
+--- !u!114 &2085506618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fd9aa7654d34b4ebc2c9ba787c606a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completarMissao: 0
+  pontos: 50
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
@@ -17750,3 +17822,4 @@ SceneRoots:
   - {fileID: 813925501}
   - {fileID: 1224143654}
   - {fileID: 1330805812}
+  - {fileID: 2085506608}
