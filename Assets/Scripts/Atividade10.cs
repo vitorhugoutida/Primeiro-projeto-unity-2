@@ -41,7 +41,7 @@ public class Atividade10 : MonoBehaviour
                 break;
 
             default:
-                print("Valor não está na lista, renicie o jogo e insira valor correto");
+                print("O valor está incorreto.");
                 break;
         }
     }

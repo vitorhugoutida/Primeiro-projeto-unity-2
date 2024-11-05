@@ -17131,6 +17131,7 @@ GameObject:
   - component: {fileID: 2085506621}
   - component: {fileID: 2085506622}
   - component: {fileID: 2085506623}
+  - component: {fileID: 2085506624}
   - component: {fileID: 2085506615}
   - component: {fileID: 2085506614}
   - component: {fileID: 2085506617}
@@ -17443,12 +17444,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d04a82f634f2253438e6ad90336b220a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itens: 5
+--- !u!114 &2085506624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01a3ef711b6e7c4db65b43288b3a363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estadoNPC: 3
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0

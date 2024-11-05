@@ -29,11 +29,11 @@ public class Atividade09 : MonoBehaviour
         }
         if (timeB == 3 && timeA == 3)
         {
-            print("UM EMPATE EMOCIANTE!!!");
+            print("Um empate emociante!");
         }
         if (timeB == timeA && timeB > 3 == timeA > 3)
         {
-            print("UM EMPATE SUPER EMOCIANTE!!!");
+            print("UM EMPATE EMOCIANTE!!!");
         }
     }
 
