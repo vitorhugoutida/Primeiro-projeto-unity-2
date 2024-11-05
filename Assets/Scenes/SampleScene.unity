@@ -17126,6 +17126,9 @@ GameObject:
   - component: {fileID: 2085506613}
   - component: {fileID: 2085506616}
   - component: {fileID: 2085506618}
+  - component: {fileID: 2085506619}
+  - component: {fileID: 2085506620}
+  - component: {fileID: 2085506621}
   - component: {fileID: 2085506615}
   - component: {fileID: 2085506614}
   - component: {fileID: 2085506617}
@@ -17371,13 +17374,52 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07fd9aa7654d34b4ebc2c9ba787c606a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   completarMissao: 1
   pontos: 50
+--- !u!114 &2085506619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fe441259535a04d97c7bc8aca6c4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guerreiro: 1
+  mago: 0
+--- !u!114 &2085506620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5b8fbdcba01c240894effdc1f36bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroDeFaces: 81637
+--- !u!114 &2085506621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946961c0fa5a5cd4b8b3d60e95da03d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
