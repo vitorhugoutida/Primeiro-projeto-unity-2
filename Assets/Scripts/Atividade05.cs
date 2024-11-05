@@ -10,7 +10,7 @@ public class Atividade05 : MonoBehaviour
     [SerializeField] int pontos = 50;
     void Start()
     {
-        if (completarMissao = true && pontos >= 50)
+        if (completarMissao == true && pontos >= 50)
         {
             print("Missão bem-sucedida");
         }
