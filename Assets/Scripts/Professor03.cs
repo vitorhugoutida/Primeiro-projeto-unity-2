@@ -20,8 +20,8 @@ public class Professor03 : MonoBehaviour
 
      */
 
-    int vidaPlayerIncial = 100;
-    double vidaplayerAtual = 100;
+    //int vidaPlayerIncial = 100;
+    //double vidaplayerAtual = 100;
 
     void Start()
     {

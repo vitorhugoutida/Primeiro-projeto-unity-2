@@ -31,10 +31,6 @@ public class Atividade09 : MonoBehaviour
         {
             print("Um empate emociante!");
         }
-        if (timeB == timeA && timeB > 3 == timeA > 3)
-        {
-            print("UM EMPATE EMOCIANTE!!!");
-        }
     }
 
     // Update is called once per frame

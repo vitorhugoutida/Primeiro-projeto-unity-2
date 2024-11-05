@@ -19,7 +19,6 @@ public class Professor02 : MonoBehaviour
         {
             print("Power-Up Coletado!");
 
-            print("Power-Up Coletado");
             velocidadeJogador = 40;
         }
         else

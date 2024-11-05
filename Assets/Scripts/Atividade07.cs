@@ -6,7 +6,7 @@ public class Atividade07 : MonoBehaviour
 
     // (Dado com N faces) Para fazer um jogo de RPG, vamos precisar calcular probabilidades e simular a rolagem de dados. Crie um script em que o usuário defina o número de faces de um dado (int) e calcule a rolagem de um dado com esse número de faces. Use a função abaixo para o cálculo: Random.Range (valor_min, valor_max); (Coloque o código dentro da função-evento Start).
 
-    [SerializeField] int numeroDeFaces = 81637;
+    [SerializeField] int numeroDeFaces;
     int resultado;
     int valorMin = 1;
 

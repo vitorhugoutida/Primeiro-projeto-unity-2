@@ -17300,7 +17300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58d8f243b3d6b6a4d8fe043fedc17698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: 1
+  powerUp: 0
   velocidadeJogador: 20
 --- !u!114 &2085506613
 MonoBehaviour:
@@ -17355,7 +17355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c74d3a1a6e36141bfaeea86b3a5ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pocaoDeVida: 0
+  pocaoDeVida: 1
 --- !u!114 &2085506617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17382,8 +17382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07fd9aa7654d34b4ebc2c9ba787c606a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completarMissao: 1
-  pontos: 50
+  completarMissao: 0
+  pontos: 80
 --- !u!114 &2085506619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17410,7 +17410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5b8fbdcba01c240894effdc1f36bfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDeFaces: 81637
+  numeroDeFaces: 120
 --- !u!114 &2085506621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17435,8 +17435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abee2413408a4344c8a82011b83e5b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeA: 1
-  timeB: 0
+  timeA: 4
+  timeB: 4
 --- !u!114 &2085506623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17449,7 +17449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04a82f634f2253438e6ad90336b220a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itens: 5
+  itens: 3
 --- !u!114 &2085506624
 MonoBehaviour:
   m_ObjectHideFlags: 0
