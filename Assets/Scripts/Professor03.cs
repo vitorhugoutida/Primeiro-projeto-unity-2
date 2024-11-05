@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio03 : MonoBehaviour
+public class Professor03 : MonoBehaviour
 {
     // ATIVIDADE 03
     // Considere que o jogo tem um power-up que revive o personagem caso ele morra. Caso o jogador morra e tiver coletado o power-up ele volta a vida com 50% de sua vida total e deve ser exibido a mensagem "Ainda não, vida atual XX". Caso ele não tenha coletado o power-up exiba "Game Over"

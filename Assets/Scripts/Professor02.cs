@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Exercicio02 : MonoBehaviour
+public class Professor02 : MonoBehaviour
 {
     // ATIVIDADE 02
     // (Detecção de power-up) Ao coletar um power-up, o personagem aumenta sua velocidade. Se o jogador encontrar um power-up, exiba "Power-Up Coletado". Caso contrário, exiba "Nenhum power-up encontrado".

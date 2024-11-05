@@ -17124,11 +17124,11 @@ GameObject:
   - component: {fileID: 2085506611}
   - component: {fileID: 2085506612}
   - component: {fileID: 2085506613}
+  - component: {fileID: 2085506616}
+  - component: {fileID: 2085506618}
   - component: {fileID: 2085506615}
   - component: {fileID: 2085506614}
   - component: {fileID: 2085506617}
-  - component: {fileID: 2085506616}
-  - component: {fileID: 2085506618}
   m_Layer: 0
   m_Name: Jogador Scripts
   m_TagString: Untagged
@@ -17376,7 +17376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07fd9aa7654d34b4ebc2c9ba787c606a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completarMissao: 0
+  completarMissao: 1
   pontos: 50
 --- !u!1 &2087461039
 GameObject:

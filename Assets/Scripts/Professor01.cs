@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio01 : MonoBehaviour
+public class Professor01 : MonoBehaviour
 {
     // ATIVIDADE 01
     // (Verificação de pontos de vida) Um personagem perde pontos de vida após uma batalha. Verique se ele ainda está vivo. Caso tenha mais de 0 pontos de vida, exiba "Personagem Vivo", caso contrário, "Game Over".

@@ -6,7 +6,7 @@ public class Atividade05 : MonoBehaviour
 
     // (Pontuação de missão) Após completar uma missão, o jogador recebe pontos. Verifique se ele ganhou mais de 50 pontos. Se sim, exiba "Missão bem-sucedida"; caso contrário, "Missão incompleta".
 
-    [SerializeField] bool completarMissao = false;
+    [SerializeField] bool completarMissao = true;
     [SerializeField] int pontos = 50;
     void Start()
     {
