@@ -8,18 +8,32 @@ public class Atividade01R : MonoBehaviour
     //    1. (Contagem regressiva de tempo) Crie uma contagem
     //regressiva de 5 a 1 e exiba "Início da partida!" ao final.
 
+    [SerializeField] int segundos;
+    [SerializeField] int x = 5;
+
 
     void Start()
     {
-        for (int i = 0; i <= 5; i--)
+        //for (int numero = 0; numero <= 5; numero--)
+        //{
+        //    print(numero);
+        //}
+        // Trava
+
+        while (x >= 1)
         {
-            print(i);
+            print(x);
+            x--;
+
+            if (x == 0)
+            {
+                print("Início da partida!");
+            }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
