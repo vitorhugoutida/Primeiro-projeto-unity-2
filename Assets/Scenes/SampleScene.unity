@@ -17135,6 +17135,14 @@ GameObject:
   - component: {fileID: 2085506615}
   - component: {fileID: 2085506614}
   - component: {fileID: 2085506617}
+  - component: {fileID: 2085506629}
+  - component: {fileID: 2085506628}
+  - component: {fileID: 2085506627}
+  - component: {fileID: 2085506626}
+  - component: {fileID: 2085506625}
+  - component: {fileID: 2085506632}
+  - component: {fileID: 2085506631}
+  - component: {fileID: 2085506630}
   m_Layer: 0
   m_Name: Jogador Scripts
   m_TagString: Untagged
@@ -17457,12 +17465,123 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085506606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b01a3ef711b6e7c4db65b43288b3a363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   estadoNPC: 3
+--- !u!114 &2085506625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477237f568adfa5479aa63ac88543e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dias: 0
+  horas: 0
+  segundos: 0
+--- !u!114 &2085506626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735a2c9fa0f0c3a4fbecb7c873be83ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces: 0
+--- !u!114 &2085506627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503e0af92233e614f80a45dcfe79ae3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mago: 0
+  guerreiro: 0
+--- !u!114 &2085506628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d921d42cb4b254081b3fc3e977371e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontos: 0
+--- !u!114 &2085506629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72c034301336b049a939d0424c396d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoVida: 0
+--- !u!114 &2085506630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3f02b8bb564eb47810478a939385ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estado: 0
+--- !u!114 &2085506631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1869dc9811e4c40bde37f87f703037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoItem: 
+  moeda: 10
+  escudo: 0
+  pocaoVida: 0
+--- !u!114 &2085506632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085506606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e684d0b69faf334cafc24fbf8bc88ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placarTimeA: 0
+  placarTimeB: 0
 --- !u!1 &2087461039
 GameObject:
   m_ObjectHideFlags: 0
