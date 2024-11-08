@@ -1,4 +1,5 @@
 using Mono.Cecil.Cil;
+using System.Threading;
 using UnityEngine;
 
 public class Atividade01R : MonoBehaviour
@@ -25,10 +26,13 @@ public class Atividade01R : MonoBehaviour
             print(x);
             x--;
 
+            Thread.Sleep(1000);
+
             if (x == 0)
             {
                 print("Início da partida!");
             }
+            
         }
     }
 
