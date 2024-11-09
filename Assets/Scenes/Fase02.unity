@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 578362670}
   - component: {fileID: 578362674}
   - component: {fileID: 578362675}
+  - component: {fileID: 578362676}
   m_Layer: 0
   m_Name: Jogador Scripts
   m_TagString: Untagged
@@ -280,7 +281,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578362669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0ed35257376eb34ea6afcb0d99b43ed, type: 3}
   m_Name: 
@@ -299,6 +300,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb35c5a0f30be343a8f0333711eb939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &578362676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578362669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477beb38e71da6a43bda25ead93cecba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fase: 0
+  moedas: 0
 --- !u!1 &602045760
 GameObject:
   m_ObjectHideFlags: 0
