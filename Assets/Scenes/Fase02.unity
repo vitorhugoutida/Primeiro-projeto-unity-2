@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 578362676}
   - component: {fileID: 578362677}
   - component: {fileID: 578362678}
+  - component: {fileID: 578362679}
   m_Layer: 0
   m_Name: Jogador Scripts
   m_TagString: Untagged
@@ -337,13 +338,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578362669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36c7e4316d1dc1b46990dbb0debffebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fase: 0
   nivelDificuldade: 0
+--- !u!114 &578362679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578362669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119ec6d52f353dd49aa42e64396b0b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &602045760
 GameObject:
   m_ObjectHideFlags: 0
