@@ -20,13 +20,13 @@ public class Atividade01R : MonoBehaviour
         //    print(numero);
         //}
         // Trava
-
+        S
         while (x >= 1)
         {
             print(x);
             x--;
 
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
 
             if (x == 0)
             {
