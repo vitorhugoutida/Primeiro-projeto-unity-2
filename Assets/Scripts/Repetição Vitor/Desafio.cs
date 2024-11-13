@@ -22,7 +22,7 @@ public class Desafio : MonoBehaviour
 
         var diasNasceu = 14;
 
-        var diaAtual = DateTime.Today.ToString("dd");
+        var diaAtual = DateTime.Today.ToString("");
 
         var mesAtual = DateTime.Now.ToString("MM");
 
