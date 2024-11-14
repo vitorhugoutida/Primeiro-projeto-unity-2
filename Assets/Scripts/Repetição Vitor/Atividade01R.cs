@@ -20,7 +20,7 @@ public class Atividade01R : MonoBehaviour
         //    print(numero);
         //}
         // Trava
-        S
+        
         while (x >= 1)
         {
             print(x);

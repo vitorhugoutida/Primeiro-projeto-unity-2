@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Desafio : MonoBehaviour
+public class Desafio02V : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -9,7 +9,7 @@ public class Desafio : MonoBehaviour
     //    Faça um algoritmo que receba o dia, o mês e o ano em que uma pessoa nasceu, imprima na tela quantos anos,
     //    meses e dias essa pessoa já viveu.Leve em consideração o ano com 365 dias e o mês com 30 dias.
 
-    [SerializeField] int anosNasceu = 2000;
+    //[SerializeField] int anosNasceu = 2000;
     //[SerializeField] int mesesNasceu = 3;
     //[SerializeField] int diasNasceu = 14;
     string idadeAno;
@@ -18,9 +18,9 @@ public class Desafio : MonoBehaviour
     {
         //var anosNasceu = 2000;
 
-        var mesesNasceu = 3;
+        //var mesesNasceu = 3;
 
-        var diasNasceu = 14;
+        //var diasNasceu = 14;
 
         var diaAtual = DateTime.Today.ToString("");
 
@@ -28,7 +28,7 @@ public class Desafio : MonoBehaviour
 
         var anoAtual = DateTime.Now.ToString("yy");
 
-        var idadeAno = DateTime.Now.ToString("yy") - anosNasceu;
+        //var idadeAno = DateTime.Now.ToString("yy") - anosNasceu;
 
         print(diaAtual);
 
@@ -39,7 +39,7 @@ public class Desafio : MonoBehaviour
         //var idadeAno = anosNasceu - anoAtual;
 
 
-        print(anoAtual - anosNasceu);
+        //print(anoAtual - anosNasceu);
 
         
     }

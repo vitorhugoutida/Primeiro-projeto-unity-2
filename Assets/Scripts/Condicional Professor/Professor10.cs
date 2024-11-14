@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using static UnityEditor.Progress;
 
-public class Exercicio10 : MonoBehaviour
+public class Professor10 : MonoBehaviour
 {
     //10. (Itens do invent�rio) Crie um script onde o jogador pode coletar
     //diferentes tipos de itens(como moedas, po��es, ou power-ups)
@@ -10,8 +10,8 @@ public class Exercicio10 : MonoBehaviour
 
     [SerializeField] string tipoItem;
     [SerializeField] int moeda = 10;
-    [SerializeField] bool escudo = false;
-    [SerializeField] bool pocaoVida = false;
+    [SerializeField] bool escudo;
+    [SerializeField] bool poçaoVida;
 
     void Start()
     {
@@ -27,8 +27,8 @@ public class Exercicio10 : MonoBehaviour
                 print("Escudo ativo");
                 break;
 
-            case "Po��o":
-                pocaoVida = true;
+            case "Poção":
+                poçaoVida = true;
                 print("Po��o de vida coletada");
                 break;
 
